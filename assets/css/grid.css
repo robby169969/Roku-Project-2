@@ -1,0 +1,18 @@
+.container-grid-nav{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.container-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container-item{
+    max-height: 1000px;
+    max-width: 500px;
+}
+#container-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
